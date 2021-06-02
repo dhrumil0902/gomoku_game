@@ -363,6 +363,9 @@ def put_seq_on_board(board, y, x, d_y, d_x, length, col):
         y += d_y
         x += d_x
 
+        
+'''************TESTS******'''
+
 
 def test_is_empty():
     board  = make_empty_board(8)
